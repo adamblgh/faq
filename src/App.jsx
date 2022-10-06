@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="container border mt-5 w-75">
       <div className="row">
-        <div className="col-md-6 p-3 border"><h1>Questions And Answers About Login</h1></div>
+        <div className="col-md-6 p-3 border"><h1>Questions And Answers About Login </h1></div>
         <div className="col-md-6 border">
           <Questions data={data}/>
         </div>
