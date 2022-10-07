@@ -7,7 +7,8 @@ import { Questions } from "./components/Questions";
 function App() {
   const [data,setData] = useState(questions)
   return (
-    <div className="container d-flex p-3 mt-5 align-items-center">
+    <div className='main'>
+      <div className="container d-flex p-3 mt-5 align-items-center">
       <div className="row">
         <div className="col-md-6 p-3 "><h1>Questions And Answers About Login </h1></div>
         <div className="col-md-6 ">
@@ -15,6 +16,8 @@ function App() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 

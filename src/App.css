@@ -4,8 +4,7 @@ html,body,#root{
 .container{
   background-color: white;
   border-radius: 10px;
-  display: grid!important;
-  place-items: center!important;
+  place-self: center;
 }
 *{
   box-sizing: border-box!important;
@@ -21,4 +20,8 @@ html,body,#root{
   width: 95%!important;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main{
+  display: grid;
+  height: 100vh;
 }
